@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/st.css">
+    <link rel="stylesheet" href="../static/style.css">
+
+    <title>Car CLassifier</title>
+  </head>
+  <body>
+    <h1>Car Classifer</h1>
+    <p>Please provide the following information about your car</p>
+    <form action='/index' method='post'>
+      <label>Buying:</label>
+      <input placeholder="buying" name='buying' type='text'><br>
+      <label>Maintainence:</label>
+      <input placeholder="maintainence" name='maint' type='text'><br>
+      <label>Number of doors:</label>
+      <input placeholder="number of doors" name='doors' type='text'><br>
+      <label>persons:</label>
+      <input placeholder="persons" name='persons' type='text'><br>
+      <label>lug boot:</label>
+      <input placeholder="lug_boot" name='lug_boot' type='text'><br>
+      <label>Safety:</label>
+      <input placeholder="safety" name='safety' type='text'><br>
+      <input type='submit'>
+    </form>
+
+    <p>{{message}}</p>
+
+  </body>
+</html>
